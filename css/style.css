@@ -1,4 +1,67 @@
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 24px;
+
+}
+
+.container{
+  width: 100%;
+  background-color: #f4d6d9;
+}
+
+.header {
+  align-items: center;
+}
+
+.baku {
+  font-size: 24px;
+  margin: 10%;
+}
+
+.baku-top-left {
+  position: absolute;
+  font-size: 48px;
+  top: 48px;
+  left: 48px;
+}
+
+.london {
+  font-size: 24px;
+  margin: 10%;
+}
+
+.london-top-left{
+
+}
+
+.madrid {
+  font-size: 24px;
+  marign: 10%;
+}
+
+.madrid-top-left{
+  position: absolute;
+  font-size: 48px;
+  top: 48px;
+  left: 48px;
+}
+
+
+.rome {
+  font-size: 24px;
+  margin: 10%;
+}
+
+@@media screen and (min width: 575px) {
+  .container {
+    display: block;
+    margin: 10%;
+  }
+}
+
+@@media screen and (min-width: 991px) {
+  .container{
+    display: inline-block;
+    margin: 10%;
+  }
 }
