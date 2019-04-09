@@ -7,61 +7,68 @@ body {
 .container{
   width: 100%;
   background-color: #f4d6d9;
+  display: block;
 }
 
 .header {
   align-items: center;
+  position: sticky;
 }
 
-.baku {
+.preview
+  h1 {
+  osition: absolute;
+  font-size:100%;
+  top: 5%;
+  left: 5%;
+}
+
+.preview baku {
   font-size: 24px;
-  margin: 10%;
+  margin: auto;
+  background-image: image(images/baku.jpg);
+  width: 80%;
+  position: sticky;
 }
 
-.baku-top-left {
-  position: absolute;
-  font-size: 48px;
-  top: 48px;
-  left: 48px;
-}
-
-.london {
+.preview london {
   font-size: 24px;
-  margin: 10%;
+  margin: auto;
+  background-image: image(images/london.png);
+  width: 80%;
+  position: sticky;
 }
 
-.london-top-left{
-
-}
-
-.madrid {
+.preview madrid{
   font-size: 24px;
-  marign: 10%;
+  margin: auto;
+  background-image: image(images/madrid.jpg);
+  width: 80%;
+  position: sticky;
+
 }
-
-.madrid-top-left{
-  position: absolute;
-  font-size: 48px;
-  top: 48px;
-  left: 48px;
-}
-
-
-.rome {
+.preview rome{
   font-size: 24px;
-  margin: 10%;
+  margin: auto;
+  background-image: image(images/rome.jpg);
+  width: 80%;
+  position: sticky;
 }
+
+
+
+
 
 @@media screen and (min width: 575px) {
-  .container {
+  .preview {
     display: block;
-    margin: 10%;
+    margin: auto;
   }
 }
 
 @@media screen and (min-width: 991px) {
-  .container{
+  .preview{
     display: inline-block;
-    margin: 10%;
+    margin: auto;
   }
 }
