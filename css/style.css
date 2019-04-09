@@ -15,44 +15,34 @@ body {
   position: sticky;
 }
 
-.preview
-  h1 {
+.preview {
+  font-size: 24px;
+  margin: auto;
+  width: 80%;
+  position: sticky;
+}
+
+.preview h1 {
   osition: absolute;
   font-size:100%;
   top: 5%;
   left: 5%;
 }
 
-.preview baku {
-  font-size: 24px;
-  margin: auto;
+.baku {
   background-image: image(images/baku.jpg);
-  width: 80%;
-  position: sticky;
 }
 
-.preview london {
-  font-size: 24px;
-  margin: auto;
+.london {
   background-image: image(images/london.png);
-  width: 80%;
-  position: sticky;
 }
 
-.preview madrid{
-  font-size: 24px;
-  margin: auto;
+.madrid{
   background-image: image(images/madrid.jpg);
-  width: 80%;
-  position: sticky;
-
 }
-.preview rome{
-  font-size: 24px;
-  margin: auto;
+
+.rome{
   background-image: image(images/rome.jpg);
-  width: 80%;
-  position: sticky;
 }
 
 
