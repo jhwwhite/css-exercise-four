@@ -67,7 +67,7 @@ body {
 @media screen and (min-width: 575px) {
   .preview {
     height: 200px;
-    width: 35%%;
+    width: 35%;
     background-size: cover;
     display: inline-block;
     margin: 1%;
@@ -80,29 +80,6 @@ body {
   }
 }
 
-@media screen and (min-width: 950px){
-  .preview {
-    display: inline-block;
-  }
-  .container {
-    width 75%;
-    margin: 0 auto;
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 750px){
-  .preview {
-    display: inline-block;
-    justify-content: center;
-  }
-  .container {
-    width 100%;
-    margin: 0 auto;
-    text-align: center;
-    justify-content: center;
-  }
-}
 
 @media screen and (min-width: 900px) {
   .preview{
